@@ -1,0 +1,24 @@
+{
+  "name": "testo-saveris-data-api",
+  "version": "0.0.1",
+  "description": "Testo Saveris Data API and Real-Time API integration",
+  "author": {
+    "name": "Testo"
+  },
+  "homepage": "https://www.testo.com",
+  "repository": "https://github.com/testo/testo-saveris-data-api-skills",
+  "license": "MIT",
+  "keywords": ["testo", "saveris"],
+  "requiredPlugins": [
+    {
+      "source": "git-subdir",
+      "url": "https://github.com/testo/testo-saveris-data-api-skills.git",
+      "path": "plugins/testo-data-api"
+    },
+    {
+      "source": "git-subdir",
+      "url": "https://github.com/testo/testo-saveris-data-api-skills.git",
+      "path": "plugins/testo-realtime-api"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "testo-data-api",
+  "version": "0.0.4",
+  "description": "Testo Saveris Data API integration",
+  "type": "module",
+  "main": "./opencode-plugin.js",
+  "exports": {
+    ".": "./opencode-plugin.js",
+    "./server": "./opencode-plugin.js"
+  },
+  "files": [
+    "opencode-plugin.js",
+    "skills"
+  ],
+  "keywords": [
+    "opencode-plugin",
+    "testo",
+    "saveris"
+  ],
+  "homepage": "https://developers.testo.dev/saveris-logger-api/data-api/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/testo/testo-saveris-data-api-skills.git",
+    "directory": "plugins/testo-data-api"
+  },
+  "license": "MIT"
+}

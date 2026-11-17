@@ -1,0 +1,32 @@
+{
+  "name": "testo-saveris-data-api",
+  "interface": {
+    "displayName": "Testo Saveris Data API"
+  },
+  "plugins": [
+    {
+      "name": "testo-data-api",
+      "source": {
+        "source": "local",
+        "path": "./plugins/testo-data-api"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "testo-realtime-api",
+      "source": {
+        "source": "local",
+        "path": "./plugins/testo-realtime-api"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

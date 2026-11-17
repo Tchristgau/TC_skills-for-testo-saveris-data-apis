@@ -1,0 +1,19 @@
+{
+  "name": "testo-realtime-api",
+  "version": "0.0.1",
+  "description": "Testo Saveris Real-Time API integration for Codex.",
+  "author": {
+    "name": "Testo"
+  },
+  "homepage": "https://developers.testo.dev/saveris-logger-api/general/overview/",
+  "repository": "https://github.com/testo/testo-saveris-data-api-skills",
+  "license": "MIT",
+  "keywords": ["productivity", "workflow"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Testo Saveris Real-Time API",
+    "shortDescription": "Testo Saveris Real-Time API integration",
+    "longDescription": "Testo Saveris Real-Time API integration",
+    "category": "Productivity"
+  }
+}

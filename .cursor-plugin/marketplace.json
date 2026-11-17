@@ -1,0 +1,24 @@
+{
+  "name": "testo-saveris-data-api",
+  "displayName": "Testo Saveris Data API",
+  "owner": {
+    "name": "Testo"
+  },
+  "metadata": {
+    "description": "Testo Saveris Data API and Real-Time API integration",
+    "version": "0.0.1",
+    "pluginRoot": "plugins"
+  },
+  "plugins": [
+    {
+      "name": "testo-data-api",
+      "source": "testo-data-api",
+      "description": "Testo Saveris Data API integration"
+    },
+    {
+      "name": "testo-realtime-api",
+      "source": "testo-realtime-api",
+      "description": "Testo Saveris Real-Time API integration"
+    }
+  ]
+}

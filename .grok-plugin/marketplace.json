@@ -1,0 +1,28 @@
+{
+  "name": "testo-saveris-data-api",
+  "description": "Testo Saveris Data API and Real-Time API integration",
+  "owner": {
+    "name": "Testo",
+    "url": "https://www.testo.com"
+  },
+  "plugins": [
+    {
+      "name": "testo-data-api",
+      "description": "Testo Saveris Data API integration",
+      "version": "0.0.1",
+      "source": "./plugins/testo-data-api",
+      "category": "productivity",
+      "homepage": "https://developers.testo.dev/saveris-logger-api/data-api/",
+      "keywords": ["testo", "saveris", "testo data api"]
+    },
+    {
+      "name": "testo-realtime-api",
+      "description": "Testo Saveris Real-Time API integration",
+      "version": "0.0.1",
+      "source": "./plugins/testo-realtime-api",
+      "category": "productivity",
+      "homepage": "https://developers.testo.dev/saveris-logger-api/push-api/",
+      "keywords": ["testo", "saveris", "testo real-time api"]
+    }
+  ]
+}

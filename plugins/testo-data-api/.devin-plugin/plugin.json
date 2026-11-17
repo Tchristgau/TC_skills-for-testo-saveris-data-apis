@@ -1,0 +1,12 @@
+{
+  "name": "testo-data-api",
+  "version": "0.0.4",
+  "description": "Testo Saveris Data API integration",
+  "author": {
+    "name": "Testo"
+  },
+  "homepage": "https://developers.testo.dev/saveris-logger-api/data-api/",
+  "repository": "https://github.com/testo/testo-saveris-data-api-skills",
+  "license": "MIT",
+  "keywords": ["testo", "saveris", "testo data api"]
+}
