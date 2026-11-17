@@ -68,15 +68,3 @@ codex plugin add testo-real-time-api@testo-saveris-data-api
 See [INSTALL.md](INSTALL.md) for Cursor, Grok Build, Devin CLI, Gemini CLI and OpenCode, and for update and removal commands.
 
 After installing, start a new session and run `/testo-data-api-help` or `/testo-real-time-api-help` to list the available skills.
-
-## Versioning
-
-Use [scripts/set-version.mjs](scripts/set-version.mjs) (Node.js 18+) to set a version in every tool-specific manifest at once. Pass an exact version, or `major`, `minor` or `patch` to bump the current one:
-
-```sh
-node scripts/set-version.mjs marketplace 1.0.0           # marketplace manifests only
-node scripts/set-version.mjs testo-data-api patch        # one plugin
-node scripts/set-version.mjs all minor --dry-run         # marketplace and every plugin, preview only
-```
-
-A plugin update covers the plugin's `plugin.json`, `package.json`, `gemini-extension.json`, every `.*-plugin/plugin.json`, its entries in the marketplace manifests and the `## Version` section of its help skill. Bumps start from the plugin's `plugin.json` (or the first marketplace manifest) and then set the same version everywhere.
