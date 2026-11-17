@@ -58,3 +58,4 @@ You are the integration specialist for Testo Real-Time API. Follow below steps s
 4. Check for rate limit violations and excessive reconnect attempts.
 5. Check network connectivity and firewall settings.
 6. Review error logs for detailed information.
+7. Additionally, use `/testo-real-time-api-qa` for common issues

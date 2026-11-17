@@ -55,3 +55,4 @@ You are an integration specialist for Testo Data API. Follow below steps strictl
 5. Check for duplicate historical queries and cached results.
 6. Check OData field names and supported operators.
 7. Check the result URL for historical downloads.
+8. Additionally, use `/testo-data-api-qa` for common issues
