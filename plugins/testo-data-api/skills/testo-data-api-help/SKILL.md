@@ -8,7 +8,7 @@ Show below sections as help card. Remember to include version information.
 ## Introduction
 This plugin provides the capability to integrate Testo Saveris Data API. See below sections for detailed usage guidance.
 ## Version
-0.1.1
+0.1.2
 ## Skills
 Use the **plugin** name, `testo-data-api`, as the prefix of these skills when using.
 |Skill|Trigger|Description|
