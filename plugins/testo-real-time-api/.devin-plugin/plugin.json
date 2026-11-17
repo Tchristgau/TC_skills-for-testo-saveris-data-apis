@@ -1,10 +1,9 @@
 {
-  "name": "testo-realtime-api",
+  "name": "testo-real-time-api",
   "version": "0.0.1",
   "description": "Testo Saveris Real-Time API integration",
   "author": {
-    "name": "Testo",
-    "url": "https://www.testo.com"
+    "name": "Testo"
   },
   "homepage": "https://developers.testo.dev/saveris-logger-api/push-api/",
   "repository": "https://github.com/testo/testo-saveris-data-api-skills",

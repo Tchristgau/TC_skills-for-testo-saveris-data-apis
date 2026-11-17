@@ -9,7 +9,7 @@ This repository is a plugin marketplace named `testo-saveris-data-api`. It works
 | Plugin | Description | API documentation |
 |---|---|---|
 | [`testo-data-api`](plugins/testo-data-api) | Fetch Testo logger data like devices, sensors, alarms, measurements and tasks with the Data API | [Data API](https://developers.testo.dev/saveris-logger-api/data-api/) |
-| [`testo-realtime-api`](plugins/testo-realtime-api) | Receive live alarms and measurements with the Real-Time (STOMP/WebSocket) API | [Real-Time API](https://developers.testo.dev/saveris-logger-api/push-api/) |
+| [`testo-real-time-api`](plugins/testo-real-time-api) | Receive live alarms and measurements with the Real-Time (STOMP/WebSocket) API | [Real-Time API](https://developers.testo.dev/saveris-logger-api/push-api/) |
 
 Install only the plugins you need.
 
@@ -25,7 +25,7 @@ Install only the plugins you need.
 | testo-data-api-qa | `/testo-data-api-qa` | Answer common questions, like credentials, site/tenant binding, data issues and endpoint errors |
 | testo-data-api-help | `/testo-data-api-help` | Show the help card |
 
-### testo-realtime-api
+### testo-real-time-api
 
 | Skill | Trigger | Description |
 |---|---|---|
@@ -46,7 +46,7 @@ Some tools prefix skills with the plugin name, for example `/testo-data-api:test
 ```sh
 claude plugin marketplace add testo/testo-saveris-data-api-skills
 claude plugin install testo-data-api@testo-saveris-data-api
-claude plugin install testo-realtime-api@testo-saveris-data-api
+claude plugin install testo-real-time-api@testo-saveris-data-api
 ```
 
 ### GitHub Copilot CLI
@@ -54,7 +54,7 @@ claude plugin install testo-realtime-api@testo-saveris-data-api
 ```sh
 copilot plugin marketplace add testo/testo-saveris-data-api-skills
 copilot plugin install testo-data-api@testo-saveris-data-api
-copilot plugin install testo-realtime-api@testo-saveris-data-api
+copilot plugin install testo-real-time-api@testo-saveris-data-api
 ```
 
 ### Codex
@@ -62,7 +62,7 @@ copilot plugin install testo-realtime-api@testo-saveris-data-api
 ```sh
 codex plugin marketplace add testo/testo-saveris-data-api-skills
 codex plugin add testo-data-api@testo-saveris-data-api
-codex plugin add testo-realtime-api@testo-saveris-data-api
+codex plugin add testo-real-time-api@testo-saveris-data-api
 ```
 
 See [INSTALL.md](INSTALL.md) for Cursor, Grok Build, Devin CLI, Gemini CLI and OpenCode, and for update and removal commands.

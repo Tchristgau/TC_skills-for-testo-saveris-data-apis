@@ -13,9 +13,9 @@
       "category": "productivity"
     },
     {
-      "name": "testo-realtime-api",
+      "name": "testo-real-time-api",
       "description": "Testo Saveris Real-Time API integration",
-      "source": "./plugins/testo-realtime-api",
+      "source": "./plugins/testo-real-time-api",
       "category": "productivity"
     }
   ]

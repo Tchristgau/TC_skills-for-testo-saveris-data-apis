@@ -18,7 +18,7 @@
     {
       "source": "git-subdir",
       "url": "https://github.com/testo/testo-saveris-data-api-skills.git",
-      "path": "plugins/testo-realtime-api"
+      "path": "plugins/testo-real-time-api"
     }
   ]
 }

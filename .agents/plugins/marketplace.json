@@ -17,10 +17,10 @@
       "category": "Productivity"
     },
     {
-      "name": "testo-realtime-api",
+      "name": "testo-real-time-api",
       "source": {
         "source": "local",
-        "path": "./plugins/testo-realtime-api"
+        "path": "./plugins/testo-real-time-api"
       },
       "policy": {
         "installation": "AVAILABLE",

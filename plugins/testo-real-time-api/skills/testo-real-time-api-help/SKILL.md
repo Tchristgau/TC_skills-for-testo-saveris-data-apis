@@ -11,7 +11,7 @@ This plugin provides the capability to integrate Testo Real-Time API. See below 
 
 ## Skills
 
-Use the **plugin** name, `testo-realtime-api`, as the prefix of these skills when using.
+Use the **plugin** name, `testo-real-time-api`, as the prefix of these skills when using.
 
 |Skill|Trigger|Description|
 |-|-|-|

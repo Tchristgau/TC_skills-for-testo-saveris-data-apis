@@ -1,5 +1,5 @@
 {
-  "name": "testo-realtime-api",
+  "name": "testo-real-time-api",
   "version": "0.0.4",
   "description": "Testo Saveris Real-Time API integration",
   "type": "module",
@@ -21,7 +21,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/testo/testo-saveris-data-api-skills.git",
-    "directory": "plugins/testo-realtime-api"
+    "directory": "plugins/testo-real-time-api"
   },
   "license": "MIT"
 }

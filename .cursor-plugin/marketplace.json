@@ -16,8 +16,8 @@
       "description": "Testo Saveris Data API integration"
     },
     {
-      "name": "testo-realtime-api",
-      "source": "testo-realtime-api",
+      "name": "testo-real-time-api",
+      "source": "testo-real-time-api",
       "description": "Testo Saveris Real-Time API integration"
     }
   ]

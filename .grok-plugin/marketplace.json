@@ -16,10 +16,10 @@
       "keywords": ["testo", "saveris", "testo data api"]
     },
     {
-      "name": "testo-realtime-api",
+      "name": "testo-real-time-api",
       "description": "Testo Saveris Real-Time API integration",
       "version": "0.0.1",
-      "source": "./plugins/testo-realtime-api",
+      "source": "./plugins/testo-real-time-api",
       "category": "productivity",
       "homepage": "https://developers.testo.dev/saveris-logger-api/push-api/",
       "keywords": ["testo", "saveris", "testo real-time api"]
