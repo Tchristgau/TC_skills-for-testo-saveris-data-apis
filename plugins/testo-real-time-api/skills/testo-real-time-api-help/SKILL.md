@@ -4,13 +4,13 @@ description: One-place references for skills. Use when user says "Testo real-tim
 user-invocable: true
 ---
 # Testo Real-Time API Help
-Show below sections as help card.
+Show below sections as help card. Remember to include version information.
 
 ## Introduction
 This plugin provides the capability to integrate Testo Real-Time API. See below sections for detailed usage guidance.
 
 ## Version
-0.1.0
+0.1.1
 
 ## Skills
 

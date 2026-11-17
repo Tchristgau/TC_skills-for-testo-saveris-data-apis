@@ -4,11 +4,11 @@ description: One-place references for skills. Use when user says "How to use tes
 user-invocable: true
 ---
 # Testo Saveris Data API Help
-Show below sections as help card.
+Show below sections as help card. Remember to include version information.
 ## Introduction
 This plugin provides the capability to integrate Testo Saveris Data API. See below sections for detailed usage guidance.
 ## Version
-0.1.0
+0.1.1
 ## Skills
 Use the **plugin** name, `testo-data-api`, as the prefix of these skills when using.
 |Skill|Trigger|Description|
