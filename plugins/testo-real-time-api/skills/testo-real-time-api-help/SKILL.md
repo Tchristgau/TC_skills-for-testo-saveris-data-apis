@@ -9,6 +9,9 @@ Show below sections as help card.
 ## Introduction
 This plugin provides the capability to integrate Testo Real-Time API. See below sections for detailed usage guidance.
 
+## Version
+0.1.0
+
 ## Skills
 
 Use the **plugin** name, `testo-real-time-api`, as the prefix of these skills when using.

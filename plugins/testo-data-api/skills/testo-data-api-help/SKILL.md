@@ -7,6 +7,8 @@ user-invocable: true
 Show below sections as help card.
 ## Introduction
 This plugin provides the capability to integrate Testo Saveris Data API. See below sections for detailed usage guidance.
+## Version
+0.1.0
 ## Skills
 Use the **plugin** name, `testo-data-api`, as the prefix of these skills when using.
 |Skill|Trigger|Description|
