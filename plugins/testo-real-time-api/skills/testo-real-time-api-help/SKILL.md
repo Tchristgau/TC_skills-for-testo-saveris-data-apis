@@ -10,7 +10,7 @@ Show below sections as help card. Remember to include version information.
 This plugin provides the capability to integrate Testo Real-Time API. See below sections for detailed usage guidance.
 
 ## Version
-0.1.2
+0.1.3
 
 ## Skills
 
