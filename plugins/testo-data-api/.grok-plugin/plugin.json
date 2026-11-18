@@ -7,7 +7,7 @@
     "url": "https://www.testo.com"
   },
   "homepage": "https://developers.testo.dev/saveris-logger-api/data-api/",
-  "repository": "https://github.com/testo/testo-saveris-data-api-skills",
+  "repository": "https://github.com/testo/skills-for-testo-saveris-data-apis",
   "license": "MIT",
   "keywords": ["testo", "saveris", "testo data api"]
 }

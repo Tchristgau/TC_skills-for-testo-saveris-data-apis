@@ -1,4 +1,4 @@
-# Testo Saveris Data API Skills
+# Skills for Testo Saveris Data APIs
 
 Agent plugins that help AI coding assistants integrate the [Testo Saveris logger APIs](https://developers.testo.dev/saveris-logger-api/general/overview/) correctly. The skills cover implementation, issue fixing, code review, project audits, API reference lookup and common integration questions.
 
@@ -44,7 +44,7 @@ Some tools prefix skills with the plugin name, for example `/testo-data-api:test
 ### Claude Code
 
 ```sh
-claude plugin marketplace add testo/testo-saveris-data-api-skills
+claude plugin marketplace add testo/skills-for-testo-saveris-data-apis
 claude plugin install testo-data-api@testo-saveris-data-api
 claude plugin install testo-real-time-api@testo-saveris-data-api
 ```
@@ -52,7 +52,7 @@ claude plugin install testo-real-time-api@testo-saveris-data-api
 ### GitHub Copilot CLI
 
 ```sh
-copilot plugin marketplace add testo/testo-saveris-data-api-skills
+copilot plugin marketplace add testo/skills-for-testo-saveris-data-apis
 copilot plugin install testo-data-api@testo-saveris-data-api
 copilot plugin install testo-real-time-api@testo-saveris-data-api
 ```
@@ -60,7 +60,7 @@ copilot plugin install testo-real-time-api@testo-saveris-data-api
 ### Codex
 
 ```sh
-codex plugin marketplace add testo/testo-saveris-data-api-skills
+codex plugin marketplace add testo/skills-for-testo-saveris-data-apis
 codex plugin add testo-data-api@testo-saveris-data-api
 codex plugin add testo-real-time-api@testo-saveris-data-api
 ```

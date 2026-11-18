@@ -52,6 +52,7 @@ Provide answers to frequently asked questions regarding Testo Data API integrati
   — The request/response payload is too large.
 - `500 Internal Server Error`
   - An unexpected server error occurred.
+  - Query failed for GET requests.
 - `504 Gateway Timeout`
   - Request timeout most commonly occurs when using sync endpoints.
 

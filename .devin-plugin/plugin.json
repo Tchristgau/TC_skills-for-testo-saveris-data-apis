@@ -6,18 +6,18 @@
     "name": "Testo"
   },
   "homepage": "https://www.testo.com",
-  "repository": "https://github.com/testo/testo-saveris-data-api-skills",
+  "repository": "https://github.com/testo/skills-for-testo-saveris-data-apis",
   "license": "MIT",
   "keywords": ["testo", "saveris"],
   "requiredPlugins": [
     {
       "source": "git-subdir",
-      "url": "https://github.com/testo/testo-saveris-data-api-skills.git",
+      "url": "https://github.com/testo/skills-for-testo-saveris-data-apis.git",
       "path": "plugins/testo-data-api"
     },
     {
       "source": "git-subdir",
-      "url": "https://github.com/testo/testo-saveris-data-api-skills.git",
+      "url": "https://github.com/testo/skills-for-testo-saveris-data-apis.git",
       "path": "plugins/testo-real-time-api"
     }
   ]

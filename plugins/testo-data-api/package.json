@@ -20,7 +20,7 @@
   "homepage": "https://developers.testo.dev/saveris-logger-api/data-api/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/testo/testo-saveris-data-api-skills.git",
+    "url": "git+https://github.com/testo/skills-for-testo-saveris-data-apis.git",
     "directory": "plugins/testo-data-api"
   },
   "license": "MIT"
