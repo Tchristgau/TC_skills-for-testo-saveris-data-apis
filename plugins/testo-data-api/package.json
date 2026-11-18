@@ -14,6 +14,7 @@
   ],
   "keywords": [
     "opencode-plugin",
+    "pi-package",
     "testo",
     "saveris"
   ],
@@ -23,5 +24,10 @@
     "url": "git+https://github.com/testo/skills-for-testo-saveris-data-apis.git",
     "directory": "plugins/testo-data-api"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "pi": {
+    "skills": [
+      "./skills"
+    ]
+  }
 }

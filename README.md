@@ -2,7 +2,7 @@
 
 Agent plugins that help AI coding assistants integrate the [Testo Saveris logger APIs](https://developers.testo.dev/saveris-logger-api/general/overview/) correctly. The skills cover implementation, issue fixing, code review, project audits, API reference lookup and common integration questions.
 
-This repository is a plugin marketplace named `testo-saveris-data-api`. It works with Claude Code, GitHub Copilot CLI, Codex, Cursor, Grok Build, Devin CLI, Gemini CLI and OpenCode.
+This repository is a plugin marketplace named `testo-saveris-data-api`. It works with Claude Code, GitHub Copilot CLI, Codex, Cursor, Grok Build, Devin CLI, Gemini CLI, OpenCode and Pi.
 
 ## Plugins
 
@@ -37,7 +37,7 @@ Install only the plugins you need.
 | testo-real-time-api-qa | `/testo-real-time-api-qa` | Answer common questions, like credentials, site/tenant binding, data issues and endpoint errors |
 | testo-real-time-api-help | `/testo-real-time-api-help` | Show the help card |
 
-Some tools prefix skills with the plugin name, for example `/testo-data-api:testo-data-api-help`.
+Some tools prefix skills with the plugin name, for example `/testo-data-api:testo-data-api-help`. Pi uses `/skill:<name>`, for example `/skill:testo-data-api-help`.
 
 ## Installation
 
@@ -65,7 +65,7 @@ codex plugin add testo-data-api@testo-saveris-data-api
 codex plugin add testo-real-time-api@testo-saveris-data-api
 ```
 
-See [INSTALL.md](INSTALL.md) for Cursor, Grok Build, Devin CLI, Gemini CLI and OpenCode, and for update and removal commands.
+See [INSTALL.md](INSTALL.md) for Cursor, Grok Build, Devin CLI, Gemini CLI, OpenCode and Pi, and for update and removal commands.
 
 After installing, start a new session and run `/testo-data-api-help` or `/testo-real-time-api-help` to list the available skills.
 

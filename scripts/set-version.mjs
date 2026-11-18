@@ -9,7 +9,7 @@
  * Targets:
  *   marketplace   Marketplace-level version: "metadata.version" in the .cursor-plugin, .github/plugin,
  *                 .claude-plugin, .grok-plugin and .agents/plugins marketplace.json files, and
- *                 "version" in .devin-plugin/plugin.json.
+ *                 "version" in .devin-plugin/plugin.json and the root package.json (Pi package).
  *   <plugin>      One plugin folder under plugins/ (testo-data-api, testo-real-time-api): its plugin.json,
  *                 package.json, gemini-extension.json, every .*-plugin/plugin.json, its entries in the
  *                 marketplace manifests and the "## Version" line of its *-help skill SKILL.md.
@@ -48,6 +48,7 @@ const MARKETPLACE_VERSIONS = [
   [".grok-plugin/marketplace.json", ["metadata", "version"]],
   [".agents/plugins/marketplace.json", ["metadata", "version"]],
   [".devin-plugin/plugin.json", ["version"]],
+  ["package.json", ["version"]],
 ]
 
 // Marketplace manifests that may repeat each plugin's version in their "plugins" entries.

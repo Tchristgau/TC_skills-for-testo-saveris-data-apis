@@ -17,6 +17,7 @@ The marketplace is named `testo-saveris-data-api` and is added from the GitHub r
 - [Devin CLI](#devin-cli)
 - [Gemini CLI](#gemini-cli)
 - [OpenCode](#opencode)
+- [Pi](#pi)
 
 ## Claude Code
 
@@ -196,6 +197,36 @@ opencode plugin -g "$PWD/skills-for-testo-saveris-data-apis/plugins/testo-real-t
 
 Run `opencode debug skill` to check the loaded skills. Pull the clone to update; remove the entries from `plugin` in `~/.config/opencode/opencode.json` to uninstall.
 
+## Pi
+
+The repository root is a Pi package (`package.json` with a `pi` manifest) that bundles the skills of both plugins. Install it from GitHub:
+
+```sh
+pi install git:github.com/testo/skills-for-testo-saveris-data-apis
+```
+
+Add `-l` to install for the current project only (`.pi/settings.json`) instead of globally (`~/.pi/agent/settings.json`).
+
+Pi can't install a package from a repository subfolder. To install a single plugin, clone the repository and install the plugin folder, which is a Pi package too, from the local path:
+
+```sh
+git clone https://github.com/testo/skills-for-testo-saveris-data-apis.git
+pi install ./skills-for-testo-saveris-data-apis/plugins/testo-data-api
+pi install ./skills-for-testo-saveris-data-apis/plugins/testo-real-time-api
+```
+
+Alternatively, install the whole repository and run `pi config` to disable the skills you don't need. Pi invokes skills as `/skill:<name>`, for example `/skill:testo-data-api-help`.
+
+Check, update or remove:
+
+```sh
+pi list
+pi update git:github.com/testo/skills-for-testo-saveris-data-apis
+pi remove git:github.com/testo/skills-for-testo-saveris-data-apis
+```
+
+For local path installs, pull the clone to update and `pi remove <path>` to uninstall.
+
 ## Verify
 
-After installing, start a new session and run `/testo-data-api-help` or `/testo-real-time-api-help` to list the available skills.
+After installing, start a new session and run `/testo-data-api-help` or `/testo-real-time-api-help` (`/skill:testo-data-api-help` or `/skill:testo-real-time-api-help` in Pi) to list the available skills.
