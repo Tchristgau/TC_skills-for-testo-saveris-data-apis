@@ -68,3 +68,36 @@ codex plugin add testo-real-time-api@testo-saveris-data-api
 See [INSTALL.md](INSTALL.md) for Cursor, Grok Build, Devin CLI, Gemini CLI and OpenCode, and for update and removal commands.
 
 After installing, start a new session and run `/testo-data-api-help` or `/testo-real-time-api-help` to list the available skills.
+
+## Examples
+### Show API documentation
+Show the whole API documentation summary 
+```
+/testo-data-api-doc
+```
+
+Show API guide for specified endpoint(s)
+
+```
+/testo-data-api-doc device-properties
+```
+
+### Audit and review
+Audit the whole repository related to Real-time API integration
+```
+/testo-real-time-api-audit
+```
+
+To review only git diff based changes
+```
+/testo-real-time-api-review
+```
+
+### Ask common Q&A questions
+use Q&A skills for common usage questions
+```
+/testo-data-api-qa Some 401 errors, why
+```
+```
+/testo-real-time-api-qa pre-requirement to use measurements queue
+```
