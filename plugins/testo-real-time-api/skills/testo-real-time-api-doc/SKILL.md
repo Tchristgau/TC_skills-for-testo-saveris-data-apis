@@ -18,3 +18,18 @@ Documents are written to this skill's `references/` folder:
 
 ## Output
 Provide the API document in a human-readable format instead of raw YAML or JSON. Note to mark deprecated endpoints and queues clearly. By default, provide the entire reference content for STOMP API only. But if specific STOMP queues/channels or REST endpoints are requested, provide only related sections and references.
+
+For each REST API endpoint, provide the following details if available:
+- HTTP method and URL path.
+- Description of the endpoint's purpose.
+- Required and optional parameters
+- Detailed request and response schemas and examples.
+- Deprecation status and recommended alternatives if deprecated.
+
+For each STOMP queue/channel, provide the following details if available:
+- Queue/channel name.
+- Description of the queue/channel's purpose.
+- Message schema and examples.
+- Deprecation status and recommended alternatives if deprecated.
+
+For entire API documentation, provide overall description and show the same structure and details as specified above for individual channels and endpoints.

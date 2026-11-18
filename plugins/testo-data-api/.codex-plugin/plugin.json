@@ -1,6 +1,6 @@
 {
   "name": "testo-data-api",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Testo Saveris Data API integration for Codex.",
   "author": {
     "name": "Testo"
