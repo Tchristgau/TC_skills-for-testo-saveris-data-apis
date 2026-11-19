@@ -9,7 +9,7 @@
     {
       "name": "testo-data-api",
       "description": "Testo Saveris Data API integration",
-      "version": "0.1.4",
+      "version": "1.0.0",
       "source": "./plugins/testo-data-api",
       "category": "productivity",
       "homepage": "https://developers.testo.dev/saveris-logger-api/data-api/",
@@ -18,7 +18,7 @@
     {
       "name": "testo-real-time-api",
       "description": "Testo Saveris Real-Time API integration",
-      "version": "0.1.4",
+      "version": "1.0.0",
       "source": "./plugins/testo-real-time-api",
       "category": "productivity",
       "homepage": "https://developers.testo.dev/saveris-logger-api/push-api/",
