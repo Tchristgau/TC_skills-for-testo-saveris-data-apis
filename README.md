@@ -101,3 +101,7 @@ use Q&A skills for common usage questions
 ```
 /testo-real-time-api-qa pre-requirement to use measurements queue
 ```
+
+## License
+
+[MIT](LICENSE) © 2026 Testo SE & Co. KGaA
