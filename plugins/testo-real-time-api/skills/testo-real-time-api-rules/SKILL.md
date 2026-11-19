@@ -12,11 +12,11 @@ List all below rules by default or provide specific guidance based on the user's
   - `eu.i` for testing environment with AWS_REGION of `eu-central-1`
   - `eu.p` for Europe production with AWS_REGION of `eu-central-1`
   - `am.p` for America production with AWS_REGION of `us-west-2`
-  - `ap.p` for asia-pacific production with AWS_REGION of `ap-southeast-1`
+  - `ap.p` for Asia-Pacific production with AWS_REGION of `ap-southeast-1`
 - User credential (username/password) is region-specific per `{region}` and AWS region when using SDK
 ### Configuration
 - Do not target multiple `{region}`s in runtime; stick to a single region per session
-- Keep user credential server side only; Secure it properly
+- Keep user credential server side only; secure it properly
 ### Authentication and Token Management
 - Fetch the token and keep credentials on server side only using one of below methods:
   - AWS Cognito authentication SDK (recommended)

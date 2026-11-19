@@ -12,7 +12,7 @@ Provide answers to frequently asked questions regarding Testo Data API integrati
 1. Credentials & region
   - Only supported credential type is `username/password` and bearer token for Data API; API-key type is not supported
   - Credential for Data API is from AWS Cognito instead of the Auth0 one for website UI.
-  - Credential is created by Testo with an API `username` bound with an email address; After creation an email with login information is sent to the account email.
+  - Credential is created by Testo with an API `username` bound with an email address; after creation an email with login information is sent to the account email.
   - Temporary password during registration expires after 5 days; contact Testo support if it expires.
   - The credential is region-specific and must be used with the corresponding region's base URL.
 
@@ -49,7 +49,7 @@ Provide answers to frequently asked questions regarding Testo Data API integrati
 - `403 Forbidden`
   - Using non-existent endpoint.
 - `413 Payload Too Large`
-  — The request/response payload is too large.
+  - The request/response payload is too large.
 - `500 Internal Server Error`
   - An unexpected server error occurred.
   - Query failed for GET requests.
@@ -76,6 +76,11 @@ Across current endpoints and message types, each physical_value/physical_extensi
 |Pressure|Absolute Pressure|hPa|Absolute air or gas pressure, not adjusted for altitude or a reference value.|
 |Illuminance|Unknown|lx|The intensity of light as perceived by the human eye.|
 |Illuminance sum|Unknown|Lxh|Total light exposure accumulated over a period of time.|
+
+**Note - legacy endpoint naming**: some legacy endpoints use different physical_value/physical_extension combinations than the ones documented above:
+- `Temperature - Air Temperature` (legacy) is equivalent to `Temperature - Unknown` (current endpoints).
+- `Door - Door Contact` (legacy) is equivalent to `Unknown - Door Contact` (current endpoints).
+- De-duplicate and normalize these combinations when migrating from legacy to current endpoints.
 
 ## Scope
 Answer questions related to Testo Data API integration only. Do not provide answers for unrelated APIs. Always refer to the official API documentation and provided sections & pages for accurate information.

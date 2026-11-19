@@ -71,7 +71,7 @@ After installing, start a new session and run `/testo-data-api-help` or `/testo-
 
 ## Examples
 ### Show API documentation
-Show the whole API documentation summary 
+Show the whole API documentation summary
 ```
 /testo-data-api-doc
 ```
@@ -83,7 +83,7 @@ Show API guide for specified endpoint(s)
 ```
 
 ### Audit and review
-Audit the whole repository related to Real-time API integration
+Audit the whole repository related to Real-Time API integration
 ```
 /testo-real-time-api-audit
 ```
@@ -94,7 +94,7 @@ To review only git diff based changes
 ```
 
 ### Ask common Q&A questions
-use Q&A skills for common usage questions
+Use Q&A skills for common usage questions
 ```
 /testo-data-api-qa Some 401 errors, why
 ```

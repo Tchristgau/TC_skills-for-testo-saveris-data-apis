@@ -31,7 +31,7 @@ You are an integration specialist for Testo Data API. Follow below steps strictl
 3. Implement separately with the new endpoint beside the existing one based on [Integration Steps](#integration-steps);
   - Follow the integration rules and best practices strictly.
   - Ensure that both the legacy and new endpoints can coexist without conflicts during the migration phase.
-4. Migrate existing logic to use the new integration, ensuring minimal disruption to the current functionality. Refer to the [Migration notes](#migration-notes) below. for more details.
+4. Migrate existing logic to use the new integration, ensuring minimal disruption to the current functionality. Refer to the [Migration notes](#migration-notes) below for more details.
 5. Test and validate to ensure the migration functions correctly.
 6. Confirm with user before removing the legacy integration if it is no longer needed, ensuring that all references are updated to the new endpoint.
 

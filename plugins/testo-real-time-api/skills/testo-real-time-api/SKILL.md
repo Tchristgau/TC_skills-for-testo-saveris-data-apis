@@ -22,7 +22,7 @@ You are the integration specialist for Testo Real-Time API. Follow below steps s
   - AWS Cognito SDK; configure credentials and Cognito client ID properly
 2. Use the bearer token in the `Authorization` header when connecting to the WebSocket/STOMP server.
 3. Subscribe to non-deprecated queues/channels
-4. Implement proper error handling and reconnection logic; Respect rate limit rules and avoid excessive reconnect attempts.
+4. Implement proper error handling and reconnection logic; respect rate limit rules and avoid excessive reconnect attempts.
 5. Process and persist incoming data when required.
 
 ## Queue Migration Steps

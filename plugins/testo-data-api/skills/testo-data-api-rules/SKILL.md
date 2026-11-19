@@ -11,11 +11,11 @@ List all below rules by default or provide specific guidance based on the user's
   - `eu.i` for testing environment
   - `eu.p` for Europe production
   - `am.p` for America production
-  - `ap.p` for asia-pacific production
+  - `ap.p` for Asia-Pacific production
 - User credential (username/password) is region-specific per `{region}`
 ### Configuration
 - Do not target multiple `{region}`s in runtime; stick to a single region per session
-- Keep user credential server side only; Secure it properly
+- Keep user credential server side only; secure it properly
 ### Authentication and Token Management
 - Call the token endpoint only on the server side
 - Cache token and refresh before expiry; reuse valid tokens

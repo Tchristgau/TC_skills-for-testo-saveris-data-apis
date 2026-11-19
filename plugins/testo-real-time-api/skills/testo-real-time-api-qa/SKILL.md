@@ -6,20 +6,20 @@ user-invocable: true
 
 Provide answers to frequently asked questions regarding Testo Real-Time WebSocket STOMP API integration and usage based on user context and input. If no input is provided, ask the user for more details about their issue or question.
 
-**Important**: When answering questions, also refer to the API documentation. Use `/testo-data-api-doc` to fetch the latest. Also check below sections for guidance and error tracking. Only answer based on concrete information and user-provided context. Do not speculate and map reasons if it is not explicitly mentioned in documentation and guidelines. If no concrete answer available from documentation and below sections, inform the user accordingly and suggest contacting Testo support for further assistance. Do not provide speculative answers.
+**Important**: When answering questions, also refer to the API documentation. Use `/testo-real-time-api-doc` to fetch the latest. Also check below sections for guidance and error tracking. Only answer based on concrete information and user-provided context. Do not speculate and map reasons if it is not explicitly mentioned in documentation and guidelines. If no concrete answer available from documentation and below sections, inform the user accordingly and suggest contacting Testo support for further assistance. Do not provide speculative answers.
 
 ## Context & guidelines
 1. Credentials & region
   - Only supported credential type is Cognito `username/password`
   - Bearer token obtained from Cognito login must be included in the `Authorization` header for all STOMP and REST API requests.
   - The credential together with the token is region-specific and must be used with the corresponding region's base URL.
-  - Credential is created by Testo with an API `username` bound with an email address; After creation an email with login information is sent to the account email.
+  - Credential is created by Testo with an API `username` bound with an email address; after creation an email with login information is sent to the account email.
   - Temporary password during registration expires after 5 days; contact Testo support if it expires.
   - When using AWS SDK, the Cognito client ID is region-specific and must match the region of the credential being used; Contact Testo support for Cognito client ID if necessary.
 
 2. Tenant binding & site data
   - To fetch site data, the site/tenant should be bound to the user from Testo side, check with Testo support if necessary.
-    - Wrong or missing binding results missing data for the corresponding tenant from STOMP message subscription.
+    - Wrong or missing binding results in missing data for the corresponding tenant from STOMP message subscription.
   - Response data should be identified based on `tenant_uuid` instead of location identifier or others.
   - Version settings API works and binds to username directly instead of tenant.
 
@@ -79,7 +79,6 @@ Provide answers to frequently asked questions regarding Testo Real-Time WebSocke
 - Other subscription errors
   - Broker unavailable - the message broker is not reachable, broker connectivity issue on Testo side.
   - Connection refused - possibly due to network issues or broker connectivity issue on Testo side.
-  
 
 ## Physical properties
 Every measured quantity exposed by our APIs — in equipment metadata, device channels, alarms, and measurement messages — is described by three fields, always used together:
@@ -101,6 +100,11 @@ Across current endpoints and message types, each physical_value/physical_extensi
 |Pressure|Absolute Pressure|hPa|Absolute air or gas pressure, not adjusted for altitude or a reference value.|
 |Illuminance|Unknown|lx|The intensity of light as perceived by the human eye.|
 |Illuminance sum|Unknown|Lxh|Total light exposure accumulated over a period of time.|
+
+**Note - legacy endpoint naming**: some legacy endpoints use different physical_value/physical_extension combinations than the ones documented above:
+- `Temperature - Air Temperature` (legacy) is equivalent to `Temperature - Unknown` (current endpoints).
+- `Door - Door Contact` (legacy) is equivalent to `Unknown - Door Contact` (current endpoints).
+- De-duplicate and normalize these combinations when migrating from legacy to current endpoints.
 
 ## Scope
 Answer questions related to Testo Real-Time API integration only. Do not provide answers for unrelated APIs. Always refer to the official API documentation and provided sections & pages for accurate information.
